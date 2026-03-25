@@ -19,7 +19,7 @@ export default function ProductList() {
   return (
     <div className="container">
 
-      {/* 🔍 Controls */}
+      
       <div className="controls">
         <input
           type="text"
@@ -39,15 +39,15 @@ export default function ProductList() {
         </select>
       </div>
 
-      {/* 🧾 Grid */}
+      
       <div className="product-grid">
         {filteredProducts.map((product) => (
           <div key={product.id} className="product-card">
 
-            {/* 🏷 Badge */}
+            
             <span className="badge">{product.badge}</span>
 
-            {/* 🖼 Image */}
+            
             <img
               src={product.image}
               alt={product.name}
@@ -59,7 +59,7 @@ export default function ProductList() {
 
               <p className="product-category">{product.category}</p>
 
-              {/* ⭐ Rating */}
+            
               <div className="rating">
                 {"★".repeat(Math.round(product.rating))}
               </div>
