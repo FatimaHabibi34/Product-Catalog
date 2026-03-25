@@ -1,4 +1,4 @@
-/* src/pages/productList.css */
+
 
 .container {
   max-width: 1100px;
@@ -6,7 +6,7 @@
   padding: 20px;
 }
 
-/* 🔍 Search + Filter */
+
 .controls {
   display: flex;
   gap: 10px;
@@ -22,14 +22,14 @@
   flex: 1;
 }
 
-/* 🧾 Grid */
+
 .product-grid {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
-/* 🧱 Card */
+
 .product-card {
   background: #fff;
   border-radius: 16px;
@@ -39,20 +39,20 @@
   position: relative;
 }
 
-/* 🎯 Premium hover */
+
 .product-card:hover {
   transform: translateY(-8px) scale(1.02);
   box-shadow: 0 15px 35px rgba(0,0,0,0.2);
 }
 
-/* 🖼 Image */
+
 .product-image {
   width: 100%;
   height: 180px;
   object-fit: cover;
 }
 
-/* 🏷 Badge */
+
 .badge {
   position: absolute;
   top: 10px;
@@ -64,7 +64,7 @@
   font-size: 0.75rem;
 }
 
-/* 📄 Content */
+
 .product-content {
   padding: 15px;
 }
@@ -85,13 +85,13 @@
   margin: 8px 0;
 }
 
-/* ⭐ Rating */
+
 .rating {
   color: gold;
   margin-bottom: 10px;
 }
 
-/* 🔘 Button */
+
 .product-button {
   display: inline-block;
   background: #2563eb;
