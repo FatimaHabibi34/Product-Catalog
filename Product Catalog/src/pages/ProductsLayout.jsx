@@ -7,7 +7,7 @@ export default function ProductsLayout() {
       <h1>Products</h1>
       <p>Browse our available products below.</p>
 
-      {/* Nested routes render here */}
+      
       <Outlet />
     </div>
   );
